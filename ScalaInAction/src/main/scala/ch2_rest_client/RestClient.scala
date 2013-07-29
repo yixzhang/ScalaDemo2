@@ -1,10 +1,9 @@
-import org.apache.http._
-import org.apache.http.client.entity._
-import org.apache.http.client.methods._
-import org.apache.http.impl.client._
-import org.apache.http.client.utils._
-import org.apache.http.message._
-import org.apache.http.params._
+package main.scala.ch2_rest_client
+
+import org.apache.http.message.{BasicNameValuePair, BasicHeader}
+import org.apache.http.client.entity.UrlEncodedFormEntity
+import org.apache.http.client.methods.{HttpDelete, HttpGet, HttpPost}
+import org.apache.http.impl.client.{DefaultHttpClient, BasicResponseHandler}
 
 object RestClient{
 	
