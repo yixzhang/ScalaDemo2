@@ -1,4 +1,4 @@
-package main.scala.ch2_rest_client
+package ch2_rest_client
 
 import org.apache.http.message.{BasicNameValuePair, BasicHeader}
 import org.apache.http.client.entity.UrlEncodedFormEntity
