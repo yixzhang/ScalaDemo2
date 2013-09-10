@@ -1,4 +1,4 @@
-package main.scala.ch3_mongodb_driver
+package ch3_mongodb_driver
 
 import com.mongodb.Mongo
 
